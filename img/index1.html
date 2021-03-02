@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/954857be31.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        #panel,
+        #flip {
+          text-align: center;
+          background-color: #e5eecc;
+        }
+    
+        #panel {
+          width: 100%;
+          height: 600px;
+          background-color: black;
+        }
+        .tab,
+        .tab1 {
+          text-align: left;
+          width: 100%;
+          height: 70px;
+          background-color: black;
+          border-bottom: 1px solid gray;
+          color: white;
+          font-size: 18px;
+          padding: 25px 0px;
+          padding-left: 10px;
+        }
+        .tab1 {
+          font-size: 30px;
+          letter-spacing: 1px;
+          padding: 0px 0px;
+        }
+        .tab1 span{
+            padding:25px 0px;
+            padding-left: 10px;
+    
+        }
+      
+      </style>
+  </head>
+  
+  <body>
+    <div id="panel">
+      <div class="tab1">
+        <span>webprofits<span/>
+        <i
+        
+          class="fa fa-close "
+          id="close"
+          style="font-size: 20px; color: gray; margin-left: 83%; "
+        ></i>
+      </div>
+      <div class="tab">WHAT WE DO</div>
+      <div class="tab">WHO WE ARE</div>
+      <div class="tab">HOW WE THINK</div>
+      <div class="tab">CONTACT</div>
+    </div>
+    <button id="flip">Click to slide up panel</button>
+
+    <script>
+      $(document).ready(function () {
+        $("#panel ").css("display", "none");
+
+        $("#flip , #close").click(function () {
+          $("#panel").slideToggle("slow");
+        });
+      });
+    </script> 
+
+  </body>
+</html>

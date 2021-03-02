@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <title>Page Title</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script
+         src="https://kit.fontawesome.com/954857be31.js"
+         crossorigin="anonymous"
+         ></script>
+      <link
+         href="https://fonts.googleapis.com/icon?family=Material+Icons"
+         rel="stylesheet"
+         />
+      <script src="./script/contact.js"></script>
+   </head>
+   <body>
+      <!--drop down menu -->
+      <div id="panel">
+         <div class="tab1">
+            <span>webprofits<span/>
+            <i
+               class="fa fa-close "
+               id="close"
+               style="font-size: 20px; color: gray; margin-left: 60%; "
+               ></i>
+         </div>
+         <div class="tab">WHAT WE DO</div>
+         <div class="tab">WHO WE ARE</div>
+         <div class="tab">HOW WE THINK</div>
+         <div class="tab"><a href="./contact.html">CONTACT </a></div>
+      </div>
+      <!--header-->
+      <div class="container">
+         <header>
+            <div class="header-img">
+               <a href="./index.html">
+               <img src="./img/logoC.png" /></a>
+            </div>
+            <div class="menu-container">
+               <div class="menu">
+                  <ul>
+                     <li class="items">what we do</li>
+                     <li class="items">who we are</li>
+                     <li class="items">how we think</li>
+                     <li class="items"><a href="./contact.html">contact</a></li>
+                     <li class="item1">let's talk</li>
+                  </ul>
+               </div>
+               <div class="menu-icon">
+                  <i class="material-icons" id="flip" style="font-size: 50px">menu</i>
+               </div>
+            </div>
+         </header>
+      </div>
+      <div class="contact-outer">
+         <div class="inner-contact">
+            <div class="text-part">
+               <div class="top">
+                  <h1>Let's talk</h1>
+                  <h4>
+                     Fill out the form and we'll come to you, or give us a call to get in
+                     touch directly.
+                  </h4>
+               </div>
+               <div class="cities">
+                  <div class="city1">
+                     <h5>SYDNEY</h5>
+                     <div class="para">
+                        <p class="p1">L28, 161 Castlereagh Street </p>
+                        <p class="p1">Sydney </p>
+                        <p class="p1">NSW 2000</p>
+                     </div>
+                     <p class="p2">P: +61 2 8806 6800</p>
+                  </div>
+                  <div class="city2">
+                     <h5>MELBOURNE</h5>
+                     <div class="para">
+                        <p class="p1">L1, 145 Russell Street </p>
+                        <p class="p1">Melbourne </p>
+                        <p class="p1">VIC 3000</p>
+                     </div>
+                     <p class="p2">P: +61 3 8488 7821</p>
+                  </div>
+               </div>
+            </div>
+            <div class="out-information">
+               <div id="info" class="information-part">
+                  <div class="input-container">
+                     <label class="required">First name </label>
+                     <input type="text" class="" id="first_name" onblur="validate (event)" />
+                  </div>
+                  <div class="input-container">
+                     <label class="required">Last name </label>
+                     <input type="text" id="last_name"  onblur="validate (event)" />
+                  </div>
+                  <div class="input-container">
+                     <label class="required">Email </label>
+                     <input type="email" id="email" onblur="validate (event)" />
+                  </div>
+                  <div class="input-container">
+                     <label class="required">Phone number </label>
+                     <input type="tel"  id="numb" onblur="validate (event)"/>
+                  </div>
+                  <div class="input-container">
+                     <label class="required">Company name </label>
+                     <input type="text"  id="comName" onblur="validate (event)" />
+                  </div>
+                  <div class="input-container">
+                     <label class="required" >Company website </label>
+                     <input type="text" onblur="validate (event)" id="comWeb"/>
+                  </div>
+                  <div class="input-container">
+                     <label class="required" >Job title </label>
+                     <input type="text" id="job" onblur="validate (event)"/>
+                  </div>
+                  <div class="input-container">
+                     <label class="required">Company size </label>
+                     <select id="select" onblur="validate_select()">
+                        <option value="" disabled="" selected="" >
+                           Please select
+                        </option>
+                        <option value="1">1-10 Employees </option>
+                        <option  value="2">11-50 Employees</option>
+                        <option  value="3">51-250 Employees</option>
+                        <option  value="4">251-1k Employees</option>
+                        <option  value="5">5k-10k Employees</option>
+                        <option  value="6">50-100 Employees</option>
+                        <option  value="7">+100k Employees</option>
+                     </select>
+                  </div>
+                  <div class="input-container1">
+                     <p class="question">Anything else we should know ?(optional)</p>
+                     <textarea></textarea>
+                  </div>
+                  <div class="btn-container">
+                     <button class="btn">REQUEST A CALL BACK</button>
+                  </div>
+                  <div class="input-container3">
+                     <p style="padding-right: 10px; padding-left: 13px ;font-size: 13px;font-weight:700 ;">
+                        <br />
+                        protected by reCAPTCHA
+                        <br />
+                        <span style="font-size: 10px ;font-weight: 500;"> Privacy - Terms</span>
+                     </p>
+                     <img  class= "rc" src="./img/rc-anchor.PNG" />
+                  </div>
+                  <div class="privacy">We respect your privacy</div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="top-footer">
+         <h5>We are premier partners with</h5>
+         <img src="./img/partnersLogos4.png" />
+      </div>
+      <div class="bottom-footer">
+      <img class="bottom-footer-img" src="./img/fLogo-light.png" />
+      <div class="copyright">
+         &copy; 2020 Webprofits. All Rights Reserved.<a class="foot-link">
+         Privacy Policy</a
+            >
+      </div>
+   </body>
+</html>

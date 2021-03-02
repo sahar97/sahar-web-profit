@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <title>Page Title</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script
+         src="https://kit.fontawesome.com/954857be31.js"
+         crossorigin="anonymous"
+         ></script>
+      <link
+         href="https://fonts.googleapis.com/icon?family=Material+Icons"
+         rel="stylesheet"
+         />
+   </head>
+   <body>
+      <!--drop down menu -->
+      <div id="panel">
+         <div class="tab1">
+            <span>webprofits<span/>
+            <i
+               class="fa fa-close "
+               id="close"
+               style="font-size: 20px; color: gray; margin-left: 60%; "
+               ></i>
+         </div>
+         <div class="tab">WHAT WE DO</div>
+         <div class="tab">WHO WE ARE</div>
+         <div class="tab">HOW WE THINK</div>
+         <div class="tab"><a href="./contact.html">CONTACT </a></div>
+      </div>
+      <!--header-->
+      <div class="container">
+         <header>
+            <div class="header-img">
+               <img src="./img/logoC.png" />
+            </div>
+            <div class="menu-container">
+               <div class="menu">
+                  <ul>
+                     <li class="items">what we do</li>
+                     <li class="items">who we are</li>
+                     <li class="items">how we think</li>
+                     <li class="items"><a href="./contact.html">contact</a></li>
+                     <li class="item1">let's talk</li>
+                  </ul>
+               </div>
+               <div class="menu-icon">
+                  <i class="material-icons" id="flip" style="font-size: 50px">menu</i>
+               </div>
+            </div>
+         </header>
+      </div>
+      <div class="bottom-header">
+         <div class="main-text">
+            <h1>
+               We helped transform <br /><span
+                  ><span id="change" style="display: inline">
+               </span
+                  ></span
+                  >
+               marketing.<br />Now we can <span class="singleLine">help you.</span>
+               <button class="findOut-btn">FIND OUT MORE</button>
+            </h1>
+         </div>
+      </div>
+      <!--slide show -->
+      <div class="outer">
+         <div class="qoute-div">
+            <img class="qoute" src="./img/quotes11.png"/>
+            <div class="out">
+               <div class="prev">          
+                  <a  onclick="minusSlides(1)">&#10094;</a>
+               </div>
+               <div class="inner-outer">
+                  <div class="slide-container">
+                     <div class="mySlides">
+                        <div class="content">
+                           <div class="left">
+                              <div class="top-left">
+                                 <h3>
+                                    Webprofits have been dedicated to supporting the growth of
+                                    our customer base
+                                 </h3>
+                              </div>
+                              <div class="bottom-left">
+                                 <h6>Adam Renn, Marketing Manager</h6>
+                              </div>
+                           </div>
+                           <div class="right">
+                              <div class="top-right">
+                                 <h3>
+                                    Webprofits have provided support, strategic advice and
+                                    have been dedicated to supporting the growth of our
+                                    customer base across Australia, taking us... to
+                                    Australia’s 5th largest NBN provider.
+                                 </h3>
+                              </div>
+                              <div class="bottom-right">
+                                 <img src="./img/ab-logo-white.png" />
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="mySlides">
+                        <div class="content">
+                           <div class="left">
+                              <div class="top-left">
+                                 <h3>Web Profits are extremely technically competent</h3>
+                              </div>
+                              <div class="bottom-left">
+                                 <h6>Andrew Sellen, Marketing Manager</h6>
+                              </div>
+                           </div>
+                           <div class="right">
+                              <div class="top-right">
+                                 <h3>
+                                    Webprofits are extremely technically competent, and have
+                                    done a great job of helping our small marketing team
+                                    achieve great results… They've made a significant
+                                    contribution in all of the areas of digital marketing.
+                                 </h3>
+                              </div>
+                              <div class="bottom-right">
+                                 <img src="./img/ae-logo-white.png" />
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--slide three -->
+                     <div class="mySlides">
+                        <div class="content">
+                           <div class="left">
+                              <div class="top-left" style="padding-bottom:120px;" >
+                                 <h3>
+                                    Webprofits has been one of the more forward-thinking,
+                                    strategic partners
+                                 </h3>
+                              </div>
+                              <div class="bottom-left" >
+                                 <h6>
+                                    Reagan Freyer, Director &amp; Head of Digital &amp;
+                                    Marketing Transformation
+                                 </h6>
+                              </div>
+                           </div>
+                           <div class="right">
+                              <div class="top-right">
+                                 <h3>
+                                    I can confidently say that Webprofits has been one of the
+                                    more forward-thinking, strategic partners I've worked
+                                    with. We’ve been able to… truly understand the value of
+                                    digital in our businesses and the necessity of paid
+                                    media’s impact to aid in driving results.
+                                 </h3>
+                              </div>
+                              <div class="bottom-right" >
+                                 <img src="./img/logitech-logo-white.png" />
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--slide four -->
+                     <div class="mySlides">
+                        <div class="content">
+                           <div class="left">
+                              <div class="top-left" style="padding-bottom:60px" >
+                                 <h3>
+                                    Webprofits is integral, and we lean on them for their
+                                    expertise
+                                 </h3>
+                              </div>
+                              <div class="bottom-left">
+                                 <h6>Jean Posthoorn, National Marketing Manager</h6>
+                              </div>
+                           </div>
+                           <div class="right">
+                              <div class="top-right">
+                                 <h3>
+                                    Webprofits is integral, and we lean on them for their
+                                    expertise all the time and the insights that they provide.
+                                    They're essentially our looking glass into the data and
+                                    interpretation of the data.
+                                 </h3>
+                              </div>
+                              <div class="bottom-right">
+                                 <img src="./img/AIF-logo-white.png" />
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--slide five -->
+                     <div class="mySlides">
+                        <div class="content">
+                           <div class="left">
+                              <div class="top-left">
+                                 <h3>
+                                    Webprofits helped us understand and unlock the potential
+                                    of digital across our network
+                                 </h3>
+                              </div>
+                              <div class="bottom-left">
+                                 <h6>James McGregor, Head of Marketing</h6>
+                              </div>
+                           </div>
+                           <div class="right">
+                              <div class="top-right">
+                                 <h3>
+                                    From strategic advice and direction, through to tactical
+                                    knowledge and execution, the team at Webprofits have
+                                    partnered with the LJ Hooker group to level up our
+                                    strategy and win the Best Marketing &amp; Digital Campaign
+                                    trophy in our industry, at the REB Awards 2020.
+                                 </h3>
+                              </div>
+                              <div class="bottom-right">
+                                 <img src="./img/ljhooker-logo-white.png" />
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--slide six -->
+                     <div class="mySlides">
+                        <div class="content">
+                           <div class="left">
+                              <div class="top-left">
+                                 <h3>
+                                    Webprofits has provided a wide set of skills, which really
+                                    complement the existing resources available to us through
+                                    the Fluid team structure.
+                                 </h3>
+                              </div>
+                              <div class="bottom-left">
+                                 <h6>Diego Mogollon, Digital Marketing Manager</h6>
+                              </div>
+                           </div>
+                           <div class="right">
+                              <div class="top-right" style="padding-bottom: 130px;" >
+                                 <h3>
+                                    Webprofits has delivered fast turnarounds, always keeping
+                                    quality in mind, with consistent communication and updates
+                                    throughout the entire process to keep our projects moving
+                                    smoothly. They’ve also been highly responsive whenever the
+                                    strategy needs to pivot in a different direction.
+                                 </h3>
+                              </div>
+                              <div class="bottom-right">
+                                 <img src="./img/eiss-logo.png" />
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--slide seven -->
+                     <div class="mySlides">
+                        <div class="content">
+                           <div class="left">
+                              <div class="top-left">
+                                 <h3>
+                                    If you're looking for professional, passionate people to
+                                    work with, Webprofits is your go-to team.
+                                 </h3>
+                              </div>
+                              <div class="bottom-left">
+                                 <h6>Jen Xu, Head of Product Design + Marketing</h6>
+                              </div>
+                           </div>
+                           <div class="right">
+                              <div class="top-right" style="padding-bottom:100px;">
+                                 <h3>
+                                    When we look for a partner, we’re trying to find someone
+                                    that we can trust. Webprofits deliver, and we really
+                                    enjoyed the process of working with the team, their
+                                    honesty and their dedication to our success.
+                                 </h3>
+                              </div>
+                              <div class="bottom-right">
+                                 <img src="./img/Brighten-logo.png" />
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--slide eight -->
+                     <div class="mySlides">
+                        <div class="content">
+                           <div class="left">
+                              <div class="top-left" style="padding-top:60px">
+                                 <h3>
+                                    Webprofits have gone above and beyond in ensuring their
+                                    work hits (and exceeds) the brief.
+                                 </h3>
+                              </div>
+                              <div class="bottom-left">
+                                 <h6>Lachlan Dale, Digital Communications Manager</h6>
+                              </div>
+                           </div>
+                           <div class="right">
+                              <div class="top-right">
+                                 <h3>
+                                    I have been hugely impressed with both the professionalism
+                                    and expertise of Webprofits team. With their support, we
+                                    have been able to turn around our SEO strategy, sharpen
+                                    our content strategy, and skill up staff across the
+                                    organisation in the process.
+                                 </h3>
+                              </div>
+                              <div class="bottom-right">
+                                 <img src="./img/msf_logo.png" />
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="dot-cont" style="text-align: center">
+                     <span class="dot" onclick="currentSlide(1)"></span>
+                     <span class="dot" onclick="currentSlide(2)"></span>
+                     <span class="dot" onclick="currentSlide(3)"></span>
+                     <span class="dot" onclick="currentSlide(4)"></span>
+                     <span class="dot" onclick="currentSlide(5)"></span>
+                     <span class="dot" onclick="currentSlide(6)"></span>
+                     <span class="dot" onclick="currentSlide(7)"></span>
+                     <span class="dot" onclick="currentSlide(8)"></span>
+                  </div>
+               </div>
+               <div class="next">
+                  <a  onclick="plusSlides(1)">&#10095;</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer>
+         <h2>We helped them transform their digital marketing.
+            <br> Now we can help you.
+         </h2>
+         <div class="div-btn">
+            <button class="footer-btn">Let's talk</button>
+         </div>
+         <div class="footer-bottom">
+            <div class="footer-img">
+               <img src="./img/fLogo.png">
+            </div>
+            <div class="copyright1">
+               &copy; 2020 Webprofits. All Rights Reserved.<a class="link">Privacy Policy</a> 
+            </div>
+         </div>
+      </footer>
+      <script src="./script/index.js"></script>
+
+   </body>
+</html>
